@@ -1,9 +1,8 @@
-//
-//  AppDelegate.m
+//  希望您的举手之劳，能为我点颗赞，谢谢~
+//  代码地址: https://github.com/Bonway/BBGPUImage
 //  BBGPUImage
-//
-//  Created by Bonway on 2018/12/21.
-//  Copyright © 2018 Bonway. All rights reserved.
+//  Created by Bonway on 2016/3/17.
+//  Copyright © 2016年 Bonway. All rights reserved.
 //
 
 #import "AppDelegate.h"

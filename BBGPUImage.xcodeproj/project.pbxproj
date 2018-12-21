@@ -14,6 +14,7 @@
 		CF8A159E21CCC1EC00B8909F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8A159D21CCC1EC00B8909F /* Assets.xcassets */; };
 		CF8A15A121CCC1EC00B8909F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8A159F21CCC1EC00B8909F /* LaunchScreen.storyboard */; };
 		CF8A15A421CCC1EC00B8909F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8A15A321CCC1EC00B8909F /* main.m */; };
+		CF8A15AD21CCC83300B8909F /* BBGPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8A15AC21CCC83300B8909F /* BBGPUImageBeautifyFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		CF8A15A021CCC1EC00B8909F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8A15A221CCC1EC00B8909F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF8A15A321CCC1EC00B8909F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF8A15AB21CCC83300B8909F /* BBGPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBGPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		CF8A15AC21CCC83300B8909F /* BBGPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBGPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		CF8A159321CCC1EA00B8909F /* BBGPUImage */ = {
 			isa = PBXGroup;
 			children = (
+				CF8A15AA21CCC7CE00B8909F /* BBGPUImageBeautifyFilter */,
 				CF8A159421CCC1EA00B8909F /* AppDelegate.h */,
 				CF8A159521CCC1EA00B8909F /* AppDelegate.m */,
 				CF8A159721CCC1EA00B8909F /* ViewController.h */,
@@ -93,6 +97,15 @@
 				CF8A15A321CCC1EC00B8909F /* main.m */,
 			);
 			path = BBGPUImage;
+			sourceTree = "<group>";
+		};
+		CF8A15AA21CCC7CE00B8909F /* BBGPUImageBeautifyFilter */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A15AB21CCC83300B8909F /* BBGPUImageBeautifyFilter.h */,
+				CF8A15AC21CCC83300B8909F /* BBGPUImageBeautifyFilter.m */,
+			);
+			path = BBGPUImageBeautifyFilter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +222,7 @@
 				CF8A159921CCC1EA00B8909F /* ViewController.m in Sources */,
 				CF8A15A421CCC1EC00B8909F /* main.m in Sources */,
 				CF8A159621CCC1EA00B8909F /* AppDelegate.m in Sources */,
+				CF8A15AD21CCC83300B8909F /* BBGPUImageBeautifyFilter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -63,12 +63,137 @@
                                     <constraint firstAttribute="width" constant="280" id="ThC-or-oTG"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5O-6j-5CX">
+                                <rect key="frame" x="12" y="455" width="351" height="63"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="模拟器上运行会有些许的卡顿，真机上没有问题。">
+                                        <attributes>
+                                            <color key="NSColor" red="0.9434969190140845" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="STKaiti"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="项目中用到了磨皮和美白的功能，学习整理GPUImage，同时也方便大家使用。">
+                                        <attributes>
+                                            <color key="NSColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="STKaiti"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您可以为我点个赞吗？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0P-iK-wlD">
+                                <rect key="frame" x="12" y="558" width="351" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="2uu-0A-vRF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" red="0.22352941179999999" green="0.49019607840000001" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.22352941179999999" green="0.49019607840000001" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" https://github.com/Bonway/BBGPUImage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5UO-wb-jov">
+                                <rect key="frame" x="12" y="584" width="351" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="eFL-gu-JvK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="M0P-iK-wlD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="9ni-dI-How"/>
+                            <constraint firstItem="L5O-6j-5CX" firstAttribute="top" secondItem="rPb-tR-j2f" secondAttribute="bottom" constant="40" id="Cgm-Hl-LIO"/>
+                            <constraint firstItem="5UO-wb-jov" firstAttribute="top" secondItem="M0P-iK-wlD" secondAttribute="bottom" constant="5" id="EKF-U8-Z8k"/>
+                            <constraint firstItem="5UO-wb-jov" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="GSc-z1-0KK"/>
                             <constraint firstItem="rPb-tR-j2f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PeY-qS-G7N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5UO-wb-jov" secondAttribute="trailing" constant="12" id="WFD-pk-tY4"/>
+                            <constraint firstAttribute="trailing" secondItem="L5O-6j-5CX" secondAttribute="trailing" constant="12" id="a9M-43-MxJ"/>
                             <constraint firstItem="mCu-pq-fi1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b1y-CH-DsL"/>
                             <constraint firstItem="rPb-tR-j2f" firstAttribute="top" secondItem="mCu-pq-fi1" secondAttribute="bottom" constant="40" id="fBO-9c-zuh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M0P-iK-wlD" secondAttribute="trailing" constant="12" id="hZ0-MP-588"/>
+                            <constraint firstItem="M0P-iK-wlD" firstAttribute="top" secondItem="L5O-6j-5CX" secondAttribute="bottom" constant="40" id="m5n-SV-eIm"/>
+                            <constraint firstItem="L5O-6j-5CX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="nPU-BI-itf"/>
                             <constraint firstItem="mCu-pq-fi1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="r7q-cr-dDe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
