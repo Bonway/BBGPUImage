@@ -18,15 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mCu-pq-fi1">
-                                <rect key="frame" x="67.5" y="60" width="240" height="287"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="mCu-pq-fi1">
+                                <rect key="frame" x="87.5" y="60" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="287" id="Cwl-FQ-XeS"/>
-                                    <constraint firstAttribute="width" constant="240" id="GFG-8v-Yin"/>
+                                    <constraint firstAttribute="height" constant="200" id="Cwl-FQ-XeS"/>
+                                    <constraint firstAttribute="width" constant="200" id="GFG-8v-Yin"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPb-tR-j2f">
-                                <rect key="frame" x="47.5" y="387" width="280" height="115"/>
+                                <rect key="frame" x="47.5" y="300" width="280" height="115"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Azl-11-MJh">
                                         <rect key="frame" x="50" y="12" width="225" height="30"/>
@@ -84,4 +84,7 @@
             <point key="canvasLocation" x="128.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="timg" width="200" height="200"/>
+    </resources>
 </document>
