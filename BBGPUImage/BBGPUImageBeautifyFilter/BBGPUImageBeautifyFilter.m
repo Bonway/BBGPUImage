@@ -7,7 +7,6 @@
 
 #import "BBGPUImageBeautifyFilter.h"
 
-// Internal CombinationFilter(It should not be used outside)
 @interface GPUImageCombinationFilter : GPUImageThreeInputFilter
 {
     GLint smoothDegreeUniform;
